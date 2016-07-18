@@ -1,13 +1,57 @@
-/** Selector universal
-
-*{
-	color:red;
-
-}
-*/
-h1{
+h1, .h1{
 	
 	font-family: monospace;
 	color:#FFDC00;
+	font-size: 24px;
 
+}
+
+h3, .h3{
+	font-family: Nimbus Mono L Bold;
+	color:#5866FF;
+	font-size: 18px;
+}
+
+.background-base{
+	background-color:#FFA02B;
+}
+
+.article{
+
+}
+
+		.article__header{
+
+			font-family: monospace;
+			color:#A85BF8;
+
+		}
+
+		.article__footer{
+			font-family: Nimbus Mono L Bold;
+
+		}
+		.article--bgblue{
+			background-color: blue;
+		}
+
+input[type="email"]:valid{
+	background-color:green;
+	
+}
+
+input[type="email"]:focus:invalid{
+	background-color:red;
+	
+}
+
+.toggle:checked ~ .checked{
+
+	background-color:grey;
+}
+.checked{
+
+	width: 50px;
+	height: 50px;
+	background-color:black;
 }
